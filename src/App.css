@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.SegmentContainer {
+  border: 1px solid black;
+  font-size: 24px;
+  margin: 20px;
+  padding: 40px;
+}
+
+.TextContainer {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.HeaderText {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
 }

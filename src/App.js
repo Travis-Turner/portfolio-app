@@ -1,15 +1,42 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 import Navigation from './Navigation';
 import Segment from './Segment';
+import text from './text';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
+      <Segment 
+        text={text.intro}
+        header={text.headers[0]}
+      >
+      </Segment>
+      <Segment 
+        text={text.simplyEnglish}
+        header={text.headers[1]}
+      >
+      </Segment>
+      <Segment 
+        text={text.hiraganaDriller}
+        header={text.headers[2]}
+      >
+      </Segment>
+      <Segment 
+        text={text.simon2}
+        header={text.headers[3]}
+      >
+      </Segment>
+      <Segment 
+        text={text.infantSchool}
+        header={text.headers[4]}
+      >
+      </Segment>
     </div>
   );
 }
