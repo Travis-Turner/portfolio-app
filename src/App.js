@@ -15,11 +15,13 @@ function App() {
       <Segment 
         text={text.intro}
         header={text.headers[0]}
+        
       >
       </Segment>
       <Segment 
         text={text.simplyEnglish}
         header={text.headers[1]}
+        images={text.images.simplyEnglish}
       >
       </Segment>
       <Segment 

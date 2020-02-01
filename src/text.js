@@ -24,7 +24,10 @@ const text = {
     ],
     headers: [
         'Introduction', 'Simply English', 'Hiragana Driller', 'Simon II', 'Infant School App'
-    ]
+    ],
+    images: {
+        simplyEnglish: ['05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16']
+    }
 }
 
 
