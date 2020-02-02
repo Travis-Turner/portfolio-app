@@ -14,6 +14,7 @@ const Navigation = (props) => {
             <Nav.Link href="#hiraganaDriller">Hiragana Driller</Nav.Link>
             <Nav.Link href="#simon2">Simon II</Nav.Link>
             <Nav.Link href="#infantSchoolApp">Infant School App</Nav.Link>
+            <Nav.Link href="#design">Designs</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

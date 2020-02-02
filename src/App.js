@@ -9,34 +9,55 @@ import Segment from './Segment';
 import text from './text';
 
 function App() {
+  console.log(text.images.design)
   return (
     <div className="App">
-      <Navigation />
+      
       <Segment 
         text={text.intro}
         header={text.headers[0]}
-        
+        href="/about"
       >
       </Segment>
       <Segment 
         text={text.simplyEnglish}
         header={text.headers[1]}
         images={text.images.simplyEnglish}
+        href="/simplyEnglish"
       >
       </Segment>
       <Segment 
         text={text.hiraganaDriller}
         header={text.headers[2]}
+        images={text.images.hiraganaDriller}
+        id="hiraganaDriller"
+       
       >
       </Segment>
       <Segment 
         text={text.simon2}
         header={text.headers[3]}
+        href="/simon2"
       >
       </Segment>
       <Segment 
         text={text.infantSchool}
         header={text.headers[4]}
+        images={text.images.infantSchool}
+        href="/infantSchoolApp"
+      >
+      </Segment>
+      <Segment 
+        text={text.designs}
+        header={text.headers[5]}
+        designImages={text.images.design}
+        href="/design"
+      >
+      </Segment>
+      <Segment 
+        text={text.thanks}
+        header={text.headers[6]}
+
       >
       </Segment>
     </div>
