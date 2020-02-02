@@ -57,21 +57,21 @@ const Segment = (props) => {
                 <Image className="DesignImage"  src={process.env.PUBLIC_URL + "/images/" + props.designImages[0] + '.png'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[1] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[1] + '.png'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[2] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[2] + '.png'} thumbnail />
               </Col>
             </Row>
             <Row className="row">
               <Col xs={6} md={4}>
-                <Image fluid className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[3] + '.PNG'} thumbnail />
+                <Image fluid className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[3] + '.png'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[4] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={process.env.PUBLIC_URL + "/images/" + props.designImages[4] + '.png'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImageLong" src={process.env.PUBLIC_URL + "/images/" + props.designImages[5] + '.PNG'} thumbnail />
+                <Image className="DesignImageLong" src={process.env.PUBLIC_URL + "/images/" + props.designImages[5] + '.png'} thumbnail />
               </Col>
             </Row>
           </Container>
