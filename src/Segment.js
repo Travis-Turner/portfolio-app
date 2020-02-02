@@ -38,7 +38,7 @@ const Segment = (props) => {
               <Carousel.Item className="CarouselItem">
                 <img
                 className="d-block w-100"
-                src={"/images/" + num + ".PNG"}
+                src={"./images/" + num + ".PNG"}
                 alt="First slide"
               />
                 <Carousel.Caption>
@@ -54,24 +54,24 @@ const Segment = (props) => {
           <Container>
             <Row className="row">
               <Col xs={6} md={4}>
-                <Image className="DesignImage"  src={"/images/" + props.designImages[0] + '.png'} thumbnail />
+                <Image className="DesignImage"  src={"./images/" + props.designImages[0] + '.png'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={"/images/" + props.designImages[1] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={"./images/" + props.designImages[1] + '.PNG'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={"/images/" + props.designImages[2] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={"./images/" + props.designImages[2] + '.PNG'} thumbnail />
               </Col>
             </Row>
             <Row className="row">
               <Col xs={6} md={4}>
-                <Image fluid className="DesignImage" src={"/images/" + props.designImages[3] + '.PNG'} thumbnail />
+                <Image fluid className="DesignImage" src={"./images/" + props.designImages[3] + '.PNG'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImage" src={"/images/" + props.designImages[4] + '.PNG'} thumbnail />
+                <Image className="DesignImage" src={"./images/" + props.designImages[4] + '.PNG'} thumbnail />
               </Col>
               <Col xs={6} md={4}>
-                <Image className="DesignImageLong" src={"/images/" + props.designImages[5] + '.PNG'} thumbnail />
+                <Image className="DesignImageLong" src={"./images/" + props.designImages[5] + '.PNG'} thumbnail />
               </Col>
             </Row>
           </Container>
